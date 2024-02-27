@@ -1,0 +1,6 @@
+MAS room {
+	infraestructure: Centralised
+	agents:
+		claustrofobico;
+		paranoico;
+}
