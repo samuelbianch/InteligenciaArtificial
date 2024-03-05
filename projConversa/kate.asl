@@ -12,3 +12,7 @@
 .print("Olá Bob, eu sou linda!!");
 .send(bob, tell, kate(linda)).
 
++~kate(linda) [source(bob)] <-
+.print("Desculpe...");
+.send(bob, untell, kate(linda)).
+
