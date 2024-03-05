@@ -1,0 +1,11 @@
+/* Jason Project */
+
+MAS projDespertador {
+
+    infrastructure: Centralised
+
+    agents:
+        relogio;
+
+}
+
