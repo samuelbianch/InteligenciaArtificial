@@ -1,0 +1,14 @@
+/* Jason Project */
+
+MAS projAskOne {
+
+    infrastructure: Centralised
+
+    agents:
+        kate;
+
+        alice;
+
+        bob;
+
+}

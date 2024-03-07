@@ -1,0 +1,13 @@
+/* Jason Project */
+
+MAS projetoBonito {
+
+    infrastructure: Centralised
+
+    agents:
+        kate;
+
+        bob;
+
+}
+
