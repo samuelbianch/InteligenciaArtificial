@@ -1,11 +1,11 @@
 /* Jason Project */
 
-MAS compras {
+MAS saude {
 
     infrastructure: Centralised
 
     agents:
-        comprador;
+        agenteDeSaude;
 
 }
 

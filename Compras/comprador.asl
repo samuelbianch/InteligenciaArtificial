@@ -1,12 +1,28 @@
-// Agent comprador in project Compras.mas2j
+comprador(compra).
+compra(Item).
+compra(preco).
+compra(qualidade).
 
-/* Initial beliefs and rules */
+!adicionarItens.
+!removerItens.
+!comparaPrecos.
+!comprarItens.
 
-/* Initial goals */
 
-!start.
++!pesquisarProdutos <- .print("Este meu plano pesquisa os produtos/itens").
+-!pesquisarProdutos <- .print("Erro ao pesquisar produtos").
 
-/* Plans */
++!comparaPrecos <- .print("Este meu plano compara preços").
+-!comparaPrecos <- .print("Não consegui comparar estes preços").
 
-+!start : true <- .print("hello world.").
++!ondeComprar <- .print("Este meu plano faz a seleção de onde comprar os itens").
+-!ondeComprar <- .print("Erro ao verificar onde comprar").
 
++!adicionarItens <- .print("Este meu plano faz a seleção de itens e os adiciona").
+-!adicionarItens <- .print("Erro").
+
++!comprarItens <- .print("Aqui eu comparo os Itens").
+-!comprarItens <- .print("Aqui deu erro ao comparar os Itens").
+
++!removerItens <- -compra(Item); .print("Item removido").
+-!removerItens <- .print("Erro ao remover item").
