@@ -1,0 +1,18 @@
+/* Jason Project */
+
+MAS pessoaCalculadora {
+
+    infrastructure: Centralised
+
+    agents:
+
+        agente1;
+
+        pessoa;
+
+        clima;
+
+        calculadora;
+
+}
+
