@@ -5,7 +5,5 @@ MAS saude {
     infrastructure: Centralised
 
     agents:
-        agenteDeSaude;
-
 }
 

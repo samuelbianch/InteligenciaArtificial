@@ -1,11 +1,11 @@
 /* Jason Project */
 
-MAS saude {
+MAS projetoMsg {
 
     infrastructure: Centralised
 
     agents:
-        agenteDeSaude;
+        a1;
 
 }
 

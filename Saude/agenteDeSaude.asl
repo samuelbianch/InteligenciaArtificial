@@ -1,12 +1,6 @@
-// Agent agenteDeSaude in project Saude.mas2j
+agente(Sintomas).
+agente(Doencas).
+agente(Tratamento).
+agente(NecessidadePreferencia).
 
-/* Initial beliefs and rules */
-
-/* Initial goals */
-
-!start.
-
-/* Plans */
-
-+!start : true <- .print("hello world.").
-
+!monitorarSintomas
