@@ -1,0 +1,13 @@
+/* Jason Project */
+
+MAS questao1 {
+
+    infrastructure: Centralised
+
+    agents:
+        vendedor;
+
+        comprador;
+
+}
+

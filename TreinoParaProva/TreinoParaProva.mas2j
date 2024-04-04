@@ -1,0 +1,13 @@
+/* Jason Project */
+
+MAS treinoParaProva {
+
+    infrastructure: Centralised
+
+    agents:
+        person;
+
+        despertador;
+
+}
+

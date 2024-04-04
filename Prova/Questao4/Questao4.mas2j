@@ -1,0 +1,11 @@
+/* Jason Project */
+
+MAS questao4 {
+
+    infrastructure: Centralised
+
+    agents:
+        garrafa;
+
+}
+

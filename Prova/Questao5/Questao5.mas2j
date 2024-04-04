@@ -1,0 +1,11 @@
+/* Jason Project */
+
+MAS questao5 {
+
+    infrastructure: Centralised
+
+    agents:
+        crianca;
+
+}
+
